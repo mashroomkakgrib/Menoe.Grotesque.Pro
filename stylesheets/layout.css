@@ -1,0 +1,353 @@
+/* Regular */
+/* @font-face {
+  font-family: "Menoe Grotesque Pro";
+  src: url("../fonts/Menoe-Grotesque-Pro.woff2") format("woff2"),
+    url("../fonts/Menoe-Grotesque-Pro.woff") format("woff"),
+    url("../fonts/Menoe Grotesque Pro.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+Italic
+@font-face {
+  font-family: "Menoe Grotesque Pro";
+  src: url("../fonts/Menoe-Grotesque-Pro-Italic.woff2") format("woff2"),
+    url("../fonts/Menoe-Grotesque-Pro-Italic.woff") format("woff"),
+    url("../fonts/Menoe Grotesque Pro Italic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+Использование */
+/* body {
+  font-family: "Menoe Grotesque Pro", system-ui, -apple-system, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+} */
+
+/* Цвет фона
+body {
+  background-color: #f5f4f0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.board {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.board__img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.board__overlay {
+  position: absolute;
+  inset: 0; /* top:0; right:0; bottom:0; left:0; */
+/* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 40px 20px;
+  pointer-events: auto;
+} */
+/* .board__title {
+  margin: 210px;
+  color: #f5f4f0;
+  transform: rotate(-2deg);
+  font-size: 82.65px;
+}
+.board__studio {
+  margin-top: 100px;
+  color: #f5f4f0;
+  transform: rotate(-2deg);
+  font-size: 38.57px;
+}
+.board__studio_name {
+  margin-top: 100px;
+  color: #f5f4f0;
+  transform: rotate(-2deg);
+  font-size: 55.1px;
+}
+.board__author {
+  margin-top: 100px;
+  color: #f5f4f0;
+  transform: rotate(-2deg);
+  font-size: 38.57px;
+}
+.board__author_name {
+  margin-top: 100px;
+  color: #f5f4f0;
+  transform: rotate(-2deg);
+  font-size: 55.1px;
+}
+.board__year {
+  margin-top: 100px;
+  color: #f5f4f0;
+  transform: rotate(-2deg);
+  font-size: 38.57px;
+}
+.board__year_name {
+  margin-top: 100px;
+  color: #f5f4f0;
+  transform: rotate(-2deg);
+  font-size: 55.1px;
+}
+
+.scotch {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-left: 1440px;
+}
+.scotch__img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.test {
+  width: 400px;
+  height: 400px;
+  background-size: cover;
+  background-image: url("../images/2\ экран/.board__author_name");
+} */
+
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 1440px;
+  display: block;
+  margin: 0 auto;
+  font-family: "Menoe Grotesque Pro";
+  position: relative;
+}
+body {
+  background-color: #f5f4f0;
+}
+body::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("../images/maket.png");
+  width: 1440px;
+  height: 10160px;
+  opacity: 0.2;
+}
+
+body .name-bage {
+  position: absolute;
+  font-size: 50px;
+  color: #f5f4f0;
+}
+body .second-name-badge {
+  position: absolute;
+  font-size: italic;
+  font-size: 25px;
+  color: #f5f4f0;
+}
+.screen-1 {
+  position: relative;
+}
+
+.screen-1 img {
+  width: 1440px;
+}
+.screen-1 h1 {
+  position: absolute;
+  font-size: 82.65px;
+  color: #f5f4f0;
+  transform: rotate(-2deg);
+  top: 238px;
+  left: 268px;
+}
+.studio {
+  position: absolute;
+  font-size: 38.57px;
+  color: #f5f4f0;
+  transform: rotate(-2deg);
+  top: 436px;
+  left: 225px;
+}
+.Hungar-umlaut {
+  position: absolute;
+  font-size: 55.1px;
+  color: #f5f4f0;
+  transform: rotate(-2deg);
+  top: 528px;
+  left: 200px;
+}
+.author {
+  position: absolute;
+  font-size: 38.57px;
+  color: #f5f4f0;
+  transform: rotate(-2deg);
+  top: 420px;
+  left: 692px;
+}
+.Adam-Katiy {
+  position: absolute;
+  font-size: 55.1px;
+  color: #f5f4f0;
+  transform: rotate(-2deg);
+  top: 512px;
+  left: 690px;
+}
+.year {
+  position: absolute;
+  font-size: 38.57px;
+  color: #f5f4f0;
+  transform: rotate(-2deg);
+  top: 405px;
+  left: 1140px;
+}
+.name-year {
+  position: absolute;
+  font-size: 55.1px;
+  color: #f5f4f0;
+  transform: rotate(-2deg);
+  top: 497px;
+  left: 1115px;
+}
+
+.screen-2 {
+  position: relative;
+  height: 1130px;
+}
+.script {
+  position: absolute;
+  top: -157px;
+}
+.history {
+  position: absolute;
+  font-size: 24.62px;
+  text-decoration: underline;
+  color: #000;
+  transform: rotate(8.5deg);
+  top: -59px;
+  left: 281px;
+}
+.text-1 {
+  position: absolute;
+  font-size: 24.62px;
+  color: #000;
+  transform: rotate(8.5deg);
+  top: 23px;
+  left: 31px;
+}
+.text-2 {
+  position: absolute;
+  font-size: 24.62px;
+  color: #000;
+  transform: rotate(8.5deg);
+  top: 112px;
+  left: 16px;
+}
+.styles {
+  position: absolute;
+  font-size: 40px;
+  color: #000;
+  transform: rotate(9.51deg);
+  top: 657px;
+  left: 292px;
+}
+.two-pieces {
+  position: absolute;
+  font-style: italic;
+  font-size: 26.23px;
+  color: #365bcd;
+  transform: rotate(9.51deg);
+  top: 693px;
+  left: 285px;
+}
+.regular {
+  position: absolute;
+  font-size: 40px;
+  color: #000;
+  transform: rotate(9.51deg);
+  top: 749px;
+  left: 281px;
+}
+.italic {
+  position: absolute;
+  font-style: italic;
+  font-size: 40px;
+  color: #000;
+  transform: rotate(9.51deg);
+  top: 812px;
+  left: 271px;
+}
+.marker {
+  position: absolute;
+  top: 730px;
+}
+.name-marker {
+  position: absolute;
+  font-size: 30px;
+  color: #000;
+  transform: rotate(13.12deg);
+  top: 956px;
+  left: 4px;
+}
+.color-marker {
+  position: absolute;
+  font-style: italic;
+  font-size: 20px;
+  color: #365bcd;
+  transform: rotate(13.12deg);
+  top: 986px;
+  left: 93px;
+}
+.badge {
+  position: absolute;
+  top: -45.9px;
+  left: 739px;
+}
+.photo {
+  position: absolute;
+  transform: rotate(11.38deg);
+  top: 466px;
+  left: 811px;
+}
+.screen-2 .name-bage {
+  position: absolute;
+  transform: rotate(11.38deg);
+}
+.scotch {
+  position: absolute;
+  top: -25px;
+  left: 1142px;
+}
+.walkie-talkie {
+  position: absolute;
+  top: 331px;
+  left: 1067px;
+}
+.name-walkie-talkie {
+  position: absolute;
+  font-size: 42.12px;
+  color: #767676;
+  transform: rotate(-130deg);
+  top: 745px;
+  left: 1204px;
+}
+.screen-3 {
+  position: relative;
+}
+.light {
+  position: absolute;
+  top: -83px;
+}
+.camera {
+  position: absolute;
+  top: 1120px;
+}
+.zoom {
+  position: absolute;
+  top: 1206px;
+  left: 839px;
+}

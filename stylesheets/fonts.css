@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Menoe Grotesque Pro";
+  src: url("../fonts/Menoe\ Grotesque\ Pro.otf") format("opentypefont"),
+    url("../fonts/Menoe\ Grotesque\ Pro.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Menoe Grotesque Pro";
+  src: url("../fonts/Menoe\ Grotesque\ Pro\ Italic.otf") format("opentypefont"),
+    url("../fonts/Menoe\ Grotesque\ Pro\ Italic.woff") format("woff");
+  font-style: italic;
+  font-weight: 400;
+}
