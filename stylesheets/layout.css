@@ -1,120 +1,3 @@
-/* Regular */
-/* @font-face {
-  font-family: "Menoe Grotesque Pro";
-  src: url("../fonts/Menoe-Grotesque-Pro.woff2") format("woff2"),
-    url("../fonts/Menoe-Grotesque-Pro.woff") format("woff"),
-    url("../fonts/Menoe Grotesque Pro.otf") format("opentype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-Italic
-@font-face {
-  font-family: "Menoe Grotesque Pro";
-  src: url("../fonts/Menoe-Grotesque-Pro-Italic.woff2") format("woff2"),
-    url("../fonts/Menoe-Grotesque-Pro-Italic.woff") format("woff"),
-    url("../fonts/Menoe Grotesque Pro Italic.otf") format("opentype");
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-}
-
-Использование */
-/* body {
-  font-family: "Menoe Grotesque Pro", system-ui, -apple-system, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif;
-} */
-
-/* Цвет фона
-body {
-  background-color: #f5f4f0;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-.board {
-  max-width: 1440px;
-  margin: 0 auto;
-}
-.board__img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-.board__overlay {
-  position: absolute;
-  inset: 0; /* top:0; right:0; bottom:0; left:0; */
-/* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 40px 20px;
-  pointer-events: auto;
-} */
-/* .board__title {
-  margin: 210px;
-  color: #f5f4f0;
-  transform: rotate(-2deg);
-  font-size: 82.65px;
-}
-.board__studio {
-  margin-top: 100px;
-  color: #f5f4f0;
-  transform: rotate(-2deg);
-  font-size: 38.57px;
-}
-.board__studio_name {
-  margin-top: 100px;
-  color: #f5f4f0;
-  transform: rotate(-2deg);
-  font-size: 55.1px;
-}
-.board__author {
-  margin-top: 100px;
-  color: #f5f4f0;
-  transform: rotate(-2deg);
-  font-size: 38.57px;
-}
-.board__author_name {
-  margin-top: 100px;
-  color: #f5f4f0;
-  transform: rotate(-2deg);
-  font-size: 55.1px;
-}
-.board__year {
-  margin-top: 100px;
-  color: #f5f4f0;
-  transform: rotate(-2deg);
-  font-size: 38.57px;
-}
-.board__year_name {
-  margin-top: 100px;
-  color: #f5f4f0;
-  transform: rotate(-2deg);
-  font-size: 55.1px;
-}
-
-.scotch {
-  max-width: 1440px;
-  margin: 0 auto;
-  margin-left: 1440px;
-}
-.scotch__img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-.test {
-  width: 400px;
-  height: 400px;
-  background-size: cover;
-  background-image: url("../images/2\ экран/.board__author_name");
-} */
-
 * {
   box-sizing: border-box;
 }
@@ -128,7 +11,7 @@ body {
 body {
   background-color: #f5f4f0;
 }
-body::after {
+/* body::after {
   content: "";
   position: absolute;
   top: 0;
@@ -137,7 +20,7 @@ body::after {
   width: 1440px;
   height: 10160px;
   opacity: 0.2;
-}
+} */
 
 .name-badge {
   font-size: 50px;
@@ -899,4 +782,316 @@ body::after {
   color: #f5f4f0;
   top: 1759px;
   left: 1025px;
+}
+
+.screen-5 {
+  position: relative;
+  height: 1270px;
+}
+.monitor {
+  position: absolute;
+  top: -231px;
+}
+.russian {
+  position: absolute;
+  font-size: 37px;
+  color: #f5f4f0;
+  top: 498px;
+  left: 179px;
+}
+.english {
+  position: absolute;
+  font-size: 37px;
+  color: #f5f4f0;
+  top: 557px;
+  left: 179px;
+}
+.greek {
+  position: absolute;
+  font-size: 37px;
+  color: #f5f4f0;
+  top: 617px;
+  left: 179px;
+}
+.romanian {
+  position: absolute;
+  font-size: 37px;
+  color: #f5f4f0;
+  top: 678px;
+  left: 179px;
+}
+.support {
+  position: absolute;
+  font-size: 60px;
+  color: #f5f4f0;
+  top: 14px;
+  left: 669px;
+}
+.timeline-1 {
+  position: absolute;
+  font-size: 21px;
+  color: #f5f4f0;
+  top: 282px;
+  left: 369px;
+}
+.timeline-2 {
+  position: absolute;
+  font-size: 21px;
+  color: #f5f4f0;
+  top: 282px;
+  left: 1155px;
+}
+.source {
+  position: absolute;
+  font-size: 16px;
+  color: #f5f4f0;
+  top: -98px;
+  left: 75px;
+}
+.import {
+  position: absolute;
+  font-size: 16px;
+  color: #f5f4f0;
+  top: -145px;
+  left: 38px;
+}
+.edit {
+  position: absolute;
+  font-size: 16px;
+  color: #f5f4f0;
+  top: -145px;
+  left: 148px;
+}
+.export {
+  position: absolute;
+  font-size: 16px;
+  color: #f5f4f0;
+  top: -145px;
+  left: 238px;
+}
+.file {
+  position: absolute;
+  font-size: 16px;
+  color: #365bcd;
+  top: -145px;
+  left: 394px;
+}
+.file {
+  position: absolute;
+  font-size: 16px;
+  color: #365bcd;
+  top: -145px;
+  left: 394px;
+}
+.v1tc1 {
+  position: absolute;
+  font-size: 14px;
+  color: #f5f4f0;
+  top: -160px;
+  left: 638px;
+}
+.v-1 {
+  position: absolute;
+  font-size: 14px;
+  color: #365bcd;
+  top: -160px;
+  left: 736px;
+}
+.our25 {
+  position: absolute;
+  font-size: 14px;
+  color: #f5f4f0;
+  top: -142px;
+  left: 638px;
+}
+.o-1 {
+  position: absolute;
+  font-size: 14px;
+  color: #365bcd;
+  top: -142px;
+  left: 736px;
+}
+.center {
+  position: absolute;
+  font-size: 14px;
+  color: #365bcd;
+  top: -149px;
+  left: 826px;
+}
+.dur25 {
+  position: absolute;
+  font-size: 14px;
+  color: #f5f4f0;
+  top: -141px;
+  left: 908px;
+}
+.d-1 {
+  position: absolute;
+  font-size: 14px;
+  color: #365bcd;
+  top: -160px;
+  left: 1005px;
+}
+.mac25 {
+  position: absolute;
+  font-size: 14px;
+  color: #f5f4f0;
+  top: -160px;
+  left: 908px;
+}
+.screen-6 {
+  position: relative;
+  height: 1074px;
+}
+.notebook {
+  position: absolute;
+  top: -298px;
+}
+.details {
+  position: absolute;
+  font-size: 42px;
+  transform: rotate(8.42deg);
+  top: -177px;
+  left: 85px;
+}
+.me {
+  position: absolute;
+  font-size: 213.32px;
+  transform: rotate(9.05deg);
+  top: -82px;
+  left: 409px;
+}
+.detail-1 {
+  position: absolute;
+  font-size: 35px;
+  transform: rotate(8.42deg);
+  top: 113px;
+  left: 149px;
+}
+.a-r {
+  position: absolute;
+  font-size: 213.32px;
+  transform: rotate(9.05deg);
+  top: 176px;
+  left: 237px;
+}
+.a-i {
+  position: absolute;
+  font-style: italic;
+  font-size: 213.32px;
+  transform: rotate(9.05deg);
+  top: 217px;
+  left: 492px;
+}
+.style-italic {
+  position: absolute;
+  font-size: 35px;
+  transform: rotate(8.42deg);
+  top: 452px;
+  left: 64px;
+}
+.о-0 {
+  position: absolute;
+  font-size: 213.32px;
+  transform: rotate(9.05deg);
+  top: 557px;
+  left: 195px;
+}
+.change-о {
+  position: absolute;
+  font-size: 35px;
+  transform: rotate(8.42deg);
+  top: 805px;
+  left: 27px;
+}
+.i-il {
+  position: absolute;
+  font-size: 213.32px;
+  transform: rotate(9.05deg);
+  top: -14px;
+  left: 826px;
+}
+.change-il {
+  position: absolute;
+  font-size: 35px;
+  transform: rotate(7.42deg);
+  top: 261px;
+  left: 890px;
+}
+.l-ll {
+  position: absolute;
+  font-size: 213.32px;
+  transform: rotate(9.05deg);
+  top: 401px;
+  left: 767px;
+}
+.change-l {
+  position: absolute;
+  font-size: 35px;
+  transform: rotate(8.42deg);
+  top: 684px;
+  left: 1014px;
+}
+.mono {
+  position: absolute;
+  font-size: 32px;
+  transform: rotate(-4.62deg);
+  top: 845px;
+  left: 1039px;
+}
+.note {
+  position: absolute;
+  top: -29px;
+  left: 240px;
+}
+
+.screen-7 {
+  position: relative;
+  height: 1190px;
+}
+.badge-2 {
+  position: relative;
+  top: 863px;
+}
+.photo-2 {
+  position: relative;
+  transform: rotate(-13.85deg);
+  top: 711px;
+  left: -516px;
+}
+.screen-6 .name-badge {
+  width: 208px;
+  height: 105px;
+  position: relative;
+  transform: rotate(-13.85deg);
+  top: 726px;
+  left: 327px;
+}
+.screen-6 .second-name-badge {
+  width: 103px;
+  height: 23px;
+  position: relative;
+  transform: rotate(-13.85deg);
+  top: 587px;
+  left: 597px;
+}
+.pencil {
+  position: relative;
+  top: -933px;
+}
+.text-for-pencil {
+  position: relative;
+  top: -940px;
+}
+.food {
+  position: relative;
+  top: -85px;
+}
+.curator {
+  width: 339px;
+  position: relative;
+  top: 55px;
+  font-size: 40px;
+  color: #f5f4f0;
+  left: 935px;
 }
